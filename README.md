@@ -1,2 +1,2 @@
 # GNS3
-Cisco GNS3 Enterprise Network Project
+GNS3 Enterprise Network Project
