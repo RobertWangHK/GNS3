@@ -1,0 +1,856 @@
+{
+    "auto_start": false,
+    "name": "unsaved",
+    "resources_type": "local",
+    "topology": {
+        "links": [
+            {
+                "description": "Link from HK_R port Ethernet0/1 to HK_PC1 port Ethernet0",
+                "destination_node_id": 10,
+                "destination_port_id": 181,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -32.54396374288605,
+                    "y": 46.08191105663502
+                },
+                "id": 1,
+                "source_node_id": 2,
+                "source_port_id": 38,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": 65.63517099430885,
+                    "y": -15.865528845308006
+                }
+            },
+            {
+                "description": "Link from SZ_R port Ethernet0/1 to SZ_PC1 port Ethernet0",
+                "destination_node_id": 11,
+                "destination_port_id": 182,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 77.79871269149925,
+                    "y": 48.643562437508294
+                },
+                "id": 2,
+                "source_node_id": 3,
+                "source_port_id": 58,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": -13.63897015319941,
+                    "y": -34.71484995000664
+                }
+            },
+            {
+                "description": "Link from ISP port Ethernet0/0 to HK_R port Ethernet0/0",
+                "destination_node_id": 2,
+                "destination_port_id": 37,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 35.71831684387185,
+                    "y": 46.99900817019784
+                },
+                "id": 3,
+                "source_node_id": 5,
+                "source_port_id": 97,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 27.781683156128153,
+                    "y": -24.49900817019784
+                }
+            },
+            {
+                "description": "Link from ISP port Ethernet0/1 to SZ_R port Ethernet0/0",
+                "destination_node_id": 3,
+                "destination_port_id": 57,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 64.0,
+                    "y": -7.0
+                },
+                "id": 4,
+                "source_node_id": 5,
+                "source_port_id": 98,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": -40.5,
+                    "y": 24.5
+                }
+            },
+            {
+                "description": "Link from ISP port Ethernet0/2 to GZ_R port Ethernet0/0",
+                "destination_node_id": 4,
+                "destination_port_id": 77,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": -39.97451417390198,
+                    "y": -5.427661220496503
+                },
+                "id": 5,
+                "source_node_id": 5,
+                "source_port_id": 99,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2",
+                    "x": 56.47451417390198,
+                    "y": 25.927661220496503
+                }
+            },
+            {
+                "description": "Link from GZ_R port Ethernet0/1 to GZ_PC1 port Ethernet0",
+                "destination_node_id": 12,
+                "destination_port_id": 183,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -41.09202257202611,
+                    "y": 45.03640038799884
+                },
+                "id": 6,
+                "source_node_id": 4,
+                "source_port_id": 78,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": 40.67361805762087,
+                    "y": -30.429120310399078
+                }
+            },
+            {
+                "description": "Link from HK_R port Ethernet0/2 to HK_S01 port Ethernet0/0",
+                "destination_node_id": 6,
+                "destination_port_id": 117,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 66.14282874685682,
+                    "y": 37.89237871498369
+                },
+                "id": 7,
+                "source_node_id": 2,
+                "source_port_id": 39,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2",
+                    "x": -38.14282874685681,
+                    "y": -17.89237871498368
+                }
+            },
+            {
+                "description": "Link from SZ_R port Ethernet0/2 to SZ_S01 port Ethernet0/0",
+                "destination_node_id": 7,
+                "destination_port_id": 137,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 64.99369918873145,
+                    "y": -2.290052677123114
+                },
+                "id": 8,
+                "source_node_id": 3,
+                "source_port_id": 59,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2",
+                    "x": -38.993699188731455,
+                    "y": 22.290052677123114
+                }
+            },
+            {
+                "description": "Link from GZ_R port Ethernet0/2 to GZ_S01 port Ethernet0/0",
+                "destination_node_id": 8,
+                "destination_port_id": 157,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": -42.99479810128497,
+                    "y": -2.3549226112696005
+                },
+                "id": 9,
+                "source_node_id": 4,
+                "source_port_id": 79,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2",
+                    "x": 64.99479810128497,
+                    "y": 21.3549226112696
+                }
+            },
+            {
+                "description": "Link from MO_PC1 port Ethernet0 to MO_R port Ethernet0/1",
+                "destination_node_id": 9,
+                "destination_port_id": 178,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": 73.01508625620335,
+                    "y": 22.901513358686913
+                },
+                "id": 10,
+                "source_node_id": 13,
+                "source_port_id": 184,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -33.515086256203375,
+                    "y": 33.59848664131309
+                }
+            },
+            {
+                "description": "Link from HK_S01 port Ethernet0/3 to MO_R port Ethernet0/0",
+                "destination_node_id": 9,
+                "destination_port_id": 177,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 41.11087787639937,
+                    "y": 45.13935609531495
+                },
+                "id": 11,
+                "source_node_id": 6,
+                "source_port_id": 120,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/3",
+                    "x": 37.88912212360063,
+                    "y": -24.13935609531495
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 2,
+                "iou_id": 1,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HK_R",
+                    "x": 8.8203125,
+                    "y": 22.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to ISP on port Ethernet0/0",
+                        "id": 37,
+                        "link_id": 3,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to HK_PC1 on port Ethernet0",
+                        "id": 38,
+                        "link_id": 1,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to HK_S01 on port Ethernet0/0",
+                        "id": 39,
+                        "link_id": 7,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 40,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4001,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "HK_R",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -20.0,
+                "y": -16.0
+            },
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 3,
+                "iou_id": 2,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SZ_R",
+                    "x": 9.921875,
+                    "y": 21.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to ISP on port Ethernet0/1",
+                        "id": 57,
+                        "link_id": 4,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SZ_PC1 on port Ethernet0",
+                        "id": 58,
+                        "link_id": 2,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SZ_S01 on port Ethernet0/0",
+                        "id": 59,
+                        "link_id": 8,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 60,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4002,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "SZ_R",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -179.0,
+                "y": 99.0
+            },
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 4,
+                "iou_id": 3,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "GZ_R",
+                    "x": 9.25,
+                    "y": 20.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to ISP on port Ethernet0/2",
+                        "id": 77,
+                        "link_id": 5,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to GZ_PC1 on port Ethernet0",
+                        "id": 78,
+                        "link_id": 6,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to GZ_S01 on port Ethernet0/0",
+                        "id": 79,
+                        "link_id": 9,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 80,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4003,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "GZ_R",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": 147.0,
+                "y": 105.0
+            },
+            {
+                "description": "IOU device",
+                "id": 5,
+                "iou_id": 4,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "ISP",
+                    "x": 6.34375,
+                    "y": 47.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HK_R on port Ethernet0/0",
+                        "id": 97,
+                        "link_id": 3,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SZ_R on port Ethernet0/0",
+                        "id": 98,
+                        "link_id": 4,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to GZ_R on port Ethernet0/0",
+                        "id": 99,
+                        "link_id": 5,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 100,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4004,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "ISP",
+                    "path": "i86bi_linux_l2-adventerprise-ms.nov11-2013-team_track",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -13.5,
+                "y": 97.5
+            },
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 6,
+                "iou_id": 5,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HK_S01",
+                    "x": 1.8828125,
+                    "y": 18.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HK_R on port Ethernet0/2",
+                        "id": 117,
+                        "link_id": 7,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 118,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 119,
+                        "name": "Ethernet0/2",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to MO_R on port Ethernet0/0",
+                        "id": 120,
+                        "link_id": 11,
+                        "name": "Ethernet0/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4005,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "HK_S01",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -115.0,
+                "y": -116.0
+            },
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 7,
+                "iou_id": 6,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SZ_S01",
+                    "x": 1.984375,
+                    "y": 19.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to SZ_R on port Ethernet0/2",
+                        "id": 137,
+                        "link_id": 8,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 138,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 139,
+                        "name": "Ethernet0/2",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 140,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4006,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "SZ_S01",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -348.0,
+                "y": 96.0
+            },
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 8,
+                "iou_id": 7,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "GZ_S01",
+                    "x": 2.3125,
+                    "y": 20.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to GZ_R on port Ethernet0/2",
+                        "id": 157,
+                        "link_id": 9,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 158,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 159,
+                        "name": "Ethernet0/2",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 160,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4007,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "GZ_S01",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": 333.0,
+                "y": 102.0
+            },
+            {
+                "default_symbol": ":/symbols/router.normal.svg",
+                "description": "IOU device",
+                "hover_symbol": ":/symbols/router.selected.svg",
+                "id": 9,
+                "iou_id": 8,
+                "label": {
+                    "color": "#ffffff",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "MO_R",
+                    "x": 7.2578125,
+                    "y": 20.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HK_S01 on port Ethernet0/3",
+                        "id": 177,
+                        "link_id": 11,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to MO_PC1 on port Ethernet0",
+                        "id": 178,
+                        "link_id": 10,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 179,
+                        "name": "Ethernet0/2",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 180,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4008,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "MO_R",
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -117.0,
+                "y": -228.0
+            },
+            {
+                "description": "VPCS device",
+                "id": 10,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HK_PC1",
+                    "x": 64.0390625,
+                    "y": 40.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HK_R on port Ethernet0/1",
+                        "id": 181,
+                        "link_id": 1,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4501,
+                    "name": "HK_PC1",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 1,
+                "x": 89.9142135623731,
+                "y": -123.50000000000001
+            },
+            {
+                "description": "VPCS device",
+                "id": 11,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SZ_PC1",
+                    "x": 1.140625,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to SZ_R on port Ethernet0/1",
+                        "id": 182,
+                        "link_id": 2,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4502,
+                    "name": "SZ_PC1",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 2,
+                "x": -346.5,
+                "y": -49.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 12,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "GZ_PC1",
+                    "x": 0.46875,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to GZ_R on port Ethernet0/1",
+                        "id": 183,
+                        "link_id": 6,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4503,
+                    "name": "GZ_PC1",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 3,
+                "x": 335.5,
+                "y": -47.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 13,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "MO_PC1",
+                    "x": 62.4765625,
+                    "y": 43.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to MO_R on port Ethernet0/1",
+                        "id": 184,
+                        "link_id": 10,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4504,
+                    "name": "MO_PC1",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 4,
+                "x": 95.5,
+                "y": -235.5
+            }
+        ],
+        "servers": [
+            {
+                "cloud": false,
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.2.3"
+}

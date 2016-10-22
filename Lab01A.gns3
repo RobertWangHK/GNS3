@@ -1,0 +1,366 @@
+{
+    "auto_start": false,
+    "name": "unsaved",
+    "resources_type": "local",
+    "topology": {
+        "links": [
+            {
+                "description": "Link from HUB1 port 1 to PC1 port Ethernet0",
+                "destination_node_id": 4,
+                "destination_port_id": 25,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -24.484576826108736,
+                    "y": 1.389317310385863
+                },
+                "id": 1,
+                "source_node_id": 1,
+                "source_port_id": 28,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 77.98457682610874,
+                    "y": -9.889317310385863
+                }
+            },
+            {
+                "description": "Link from HUB2 port 1 to PC2 port Ethernet0",
+                "destination_node_id": 5,
+                "destination_port_id": 26,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 63.372418333966834,
+                    "y": 12.371671590629262
+                },
+                "id": 2,
+                "source_node_id": 2,
+                "source_port_id": 32,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": -12.872418333966834,
+                    "y": -23.871671590629262
+                }
+            },
+            {
+                "description": "Link from HUB2 port 4 to HUB1 port 2",
+                "destination_node_id": 1,
+                "destination_port_id": 29,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -11.529718403145722,
+                    "y": -25.83908366115999
+                },
+                "id": 3,
+                "source_node_id": 2,
+                "source_port_id": 35,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 72.52971840314572,
+                    "y": 5.8390836611599894
+                }
+            },
+            {
+                "description": "Link from HUB3 port 1 to PC3 port Ethernet0",
+                "destination_node_id": 6,
+                "destination_port_id": 27,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 63.13213033285729,
+                    "y": -6.871041700095915
+                },
+                "id": 4,
+                "source_node_id": 3,
+                "source_port_id": 36,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": -11.632130332857287,
+                    "y": 29.371041700095915
+                }
+            },
+            {
+                "description": "Link from HUB3 port 4 to HUB1 port 3",
+                "destination_node_id": 1,
+                "destination_port_id": 30,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -12.175029485813297,
+                    "y": 31.9443343789968
+                },
+                "id": 5,
+                "source_node_id": 3,
+                "source_port_id": 39,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 74.1750294858133,
+                    "y": 4.0556656210032
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "description": "Ethernet hub",
+                "id": 1,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HUB1",
+                    "x": 11.3125,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC1 on port Ethernet0",
+                        "id": 28,
+                        "link_id": 1,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "description": "connected to HUB2 on port 4",
+                        "id": 29,
+                        "link_id": 3,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2
+                    },
+                    {
+                        "description": "connected to HUB3 on port 4",
+                        "id": 30,
+                        "link_id": 5,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3
+                    },
+                    {
+                        "id": 31,
+                        "name": "4",
+                        "port_number": 4
+                    }
+                ],
+                "properties": {
+                    "name": "HUB1"
+                },
+                "server_id": 1,
+                "type": "EthernetHub",
+                "x": -14.0,
+                "y": -95.0
+            },
+            {
+                "description": "Ethernet hub",
+                "id": 2,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HUB2",
+                    "x": 11.3125,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC2 on port Ethernet0",
+                        "id": 32,
+                        "link_id": 2,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "id": 33,
+                        "name": "2",
+                        "port_number": 2
+                    },
+                    {
+                        "id": 34,
+                        "name": "3",
+                        "port_number": 3
+                    },
+                    {
+                        "description": "connected to HUB1 on port 2",
+                        "id": 35,
+                        "link_id": 3,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4
+                    }
+                ],
+                "properties": {
+                    "name": "HUB2"
+                },
+                "server_id": 1,
+                "type": "EthernetHub",
+                "x": -174.0,
+                "y": -154.0
+            },
+            {
+                "description": "Ethernet hub",
+                "id": 3,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HUB3",
+                    "x": 13.3125,
+                    "y": 32.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC3 on port Ethernet0",
+                        "id": 36,
+                        "link_id": 4,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "id": 37,
+                        "name": "2",
+                        "port_number": 2
+                    },
+                    {
+                        "id": 38,
+                        "name": "3",
+                        "port_number": 3
+                    },
+                    {
+                        "description": "connected to HUB1 on port 3",
+                        "id": 39,
+                        "link_id": 5,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4
+                    }
+                ],
+                "properties": {
+                    "name": "HUB3"
+                },
+                "server_id": 1,
+                "type": "EthernetHub",
+                "x": -177.0,
+                "y": -44.0
+            },
+            {
+                "description": "VPCS device",
+                "id": 4,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC1",
+                    "x": 14.09375,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HUB1 on port 1",
+                        "id": 25,
+                        "link_id": 1,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4501,
+                    "name": "PC1",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 1,
+                "x": 169.5,
+                "y": -103.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 5,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC2",
+                    "x": 14.09375,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HUB2 on port 1",
+                        "id": 26,
+                        "link_id": 2,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4502,
+                    "name": "PC2",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 2,
+                "x": -323.5,
+                "y": -219.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 6,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC3",
+                    "x": 14.09375,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to HUB3 on port 1",
+                        "id": 27,
+                        "link_id": 4,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4503,
+                    "name": "PC3",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 3,
+                "x": -322.5,
+                "y": -17.5
+            }
+        ],
+        "servers": [
+            {
+                "cloud": false,
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.2.3"
+}

@@ -1,0 +1,408 @@
+{
+    "name": "lab01B",
+    "resources_type": "local",
+    "topology": {
+        "links": [
+            {
+                "description": "Link from SW1 port Ethernet0/0 to PC1 port Ethernet0",
+                "destination_node_id": 4,
+                "destination_port_id": 61,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -25.49691405646817,
+                    "y": 2.003143924764373
+                },
+                "id": 1,
+                "source_node_id": 1,
+                "source_port_id": 17,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 52.49691405646817,
+                    "y": 28.996856075235627
+                }
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/0 to PC2 port Ethernet0",
+                "destination_node_id": 5,
+                "destination_port_id": 62,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 61.49197083604196,
+                    "y": 12.718215850270411
+                },
+                "id": 2,
+                "source_node_id": 2,
+                "source_port_id": 37,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": -47.49197083604196,
+                    "y": 10.281784149729575
+                }
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/3 to SW1 port Ethernet0/2",
+                "destination_node_id": 1,
+                "destination_port_id": 19,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2",
+                    "x": -37.7530055896543,
+                    "y": -18.403241870022867
+                },
+                "id": 3,
+                "source_node_id": 2,
+                "source_port_id": 40,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/3",
+                    "x": 54.75300558965429,
+                    "y": 8.403241870022867
+                }
+            },
+            {
+                "description": "Link from SW3 port Ethernet0/0 to PC3 port Ethernet0",
+                "destination_node_id": 6,
+                "destination_port_id": 63,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 61.193800443843145,
+                    "y": -15.423724720913057
+                },
+                "id": 4,
+                "source_node_id": 3,
+                "source_port_id": 57,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": -48.19380044384313,
+                    "y": 9.423724720913057
+                }
+            },
+            {
+                "description": "Link from SW3 port Ethernet0/3 to SW1 port Ethernet0/3",
+                "destination_node_id": 1,
+                "destination_port_id": 20,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/3",
+                    "x": -39.78632012921995,
+                    "y": 43.33160632499961
+                },
+                "id": 5,
+                "source_node_id": 3,
+                "source_port_id": 60,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/3",
+                    "x": 52.786320129219945,
+                    "y": 14.668393675000388
+                }
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/2 to SW3 port Ethernet0/2",
+                "destination_node_id": 3,
+                "destination_port_id": 59,
+                "id": 6,
+                "source_node_id": 2,
+                "source_port_id": 39
+            }
+        ],
+        "nodes": [
+            {
+                "description": "IOU device",
+                "id": 1,
+                "iou_id": 1,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW1",
+                    "x": 3.140625,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC1 on port Ethernet0",
+                        "id": 17,
+                        "link_id": 1,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 18,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet0/3",
+                        "id": 19,
+                        "link_id": 3,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet0/3",
+                        "id": 20,
+                        "link_id": 5,
+                        "name": "Ethernet0/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4001,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "SW1",
+                    "path": "i86bi_linux_l2-adventerprise-ms.nov11-2013-team_track",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": 63.5,
+                "y": -58.5
+            },
+            {
+                "description": "IOU device",
+                "id": 2,
+                "iou_id": 2,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW2",
+                    "x": 3.140625,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC2 on port Ethernet0",
+                        "id": 37,
+                        "link_id": 2,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 38,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet0/2",
+                        "id": 39,
+                        "link_id": 6,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet0/2",
+                        "id": 40,
+                        "link_id": 3,
+                        "name": "Ethernet0/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4002,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "SW2",
+                    "path": "i86bi_linux_l2-adventerprise-ms.nov11-2013-team_track",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -101.5,
+                "y": -118.5
+            },
+            {
+                "description": "IOU device",
+                "id": 3,
+                "iou_id": 3,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW3",
+                    "x": 3.140625,
+                    "y": 50.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC3 on port Ethernet0",
+                        "id": 57,
+                        "link_id": 4,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 58,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet0/2",
+                        "id": 59,
+                        "link_id": 6,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet0/3",
+                        "id": 60,
+                        "link_id": 5,
+                        "name": "Ethernet0/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4003,
+                    "ethernet_adapters": 1,
+                    "initial_config": "initial-config.cfg",
+                    "name": "SW3",
+                    "path": "i86bi_linux_l2-adventerprise-ms.nov11-2013-team_track",
+                    "serial_adapters": 0
+                },
+                "server_id": 1,
+                "type": "IOUDevice",
+                "x": -102.5,
+                "y": -4.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 4,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC1",
+                    "x": 13.953125,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet0/0",
+                        "id": 61,
+                        "link_id": 1,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4501,
+                    "name": "PC1",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 1,
+                "x": 217.5,
+                "y": -62.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 5,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC2",
+                    "x": 13.953125,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to SW2 on port Ethernet0/0",
+                        "id": 62,
+                        "link_id": 2,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4502,
+                    "name": "PC2",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 2,
+                "x": -268.5,
+                "y": -183.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 6,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC3",
+                    "x": 12.953125,
+                    "y": -28.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to SW3 on port Ethernet0/0",
+                        "id": 63,
+                        "link_id": 4,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 4503,
+                    "name": "PC3",
+                    "script_file": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vpcs_id": 3,
+                "x": -349.5,
+                "y": 3.5
+            }
+        ],
+        "servers": [
+            {
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.2.1"
+}
